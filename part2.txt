@@ -1,0 +1,78 @@
+Question 1: Hello,
+
+I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
+
+Records
+Indexing
+I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking."
+
+Cheers, George
+
+Hello George,
+
+I'm happy to help make your onboarding smooth as silk!
+
+Records are objects you add to an index and want to search for. For example, when you search Google for a web page, each result represents a record. More info here: https://www.algolia.com/doc/faq/basics/what-is-a-record/
+
+An index is the place where the data used by a search engine is stored. More info here: https://www.algolia.com/doc/faq/basics/what-is-an-index/
+
+In terms of custom ranking metrics, what are your business objectives? Are you looking to increase sales, encourage people to stay on your site and view as many products as possible, showcase your product-line, etc. Try looking at:
+-price
+-popularity (purchase volume / hit count / ratings)
+-date of release
+
+More info here: https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/
+
+Hope this helps - please don't hesitate to reach out with any follow-up questions. Have a great day!
+
+Regards,
+Scott
+
+
+Question 2: Hello,
+
+Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+
+Regards, Matt
+
+Hello Matt,
+
+Thanks so much for your feedback! All feedback is welcome - particularly the ones we may not "want to hear."
+
+Sorry to hear you don't like the new dashboard design. Our product team makes iterations based on multiple stakeholders / feedback - and felt this was an optimized improvement.
+
+I completely hear your pain around clearing and deleting indexes taking a few extra clicks. If I may suggest, have you considered using our API?
+Clearing objects is just a command line call away: https://www.algolia.com/doc/api-reference/api-methods/clear-objects/
+Likewise for deleting indexes: https://www.algolia.com/doc/api-reference/api-methods/delete-index/
+
+Let me know if this path is acceptable - or if you have any questions.
+
+I have also logged your feedback in our internal database for consideration of our product team. We take all feedback seriously and appreciate you contacting us.
+
+Thanks,
+Scott
+
+Question 3: Hi,
+
+I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+
+Regards, Leo
+
+Hi Leo,
+
+Excellent! Thank you for your interest in Algolia!
+
+Short answer is - this is not much development work.
+
+High level process is:
+1. Pick Dataset
+2. Push Data (via API or Dashboard)
+3. Set Relevance (via API or Dashboard)
+4. Build UI (much of the heavy-lifting is done for you, with our InstantSearch library providing simple widgets to copy / paste into your HTML)
+
+Check out this tutorial to see how easy it is to get up and running: https://www.algolia.com/doc/onboarding/#/pick-dataset
+
+Let me know if you have any questions - happy to help!
+
+Regards,
+Scott

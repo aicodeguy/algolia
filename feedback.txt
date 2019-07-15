@@ -1,0 +1,8 @@
+Project Outline
+My project is a memes search engine, indexing the top 100 memes from the Imgflip API: https://api.imgflip.com/. They are searchable by name - using Algolia instant search - and also display the meme image.
+
+What I intended to accomplish
+I intended to use an external public API to populate Algolia via API and add relevance programatically. I also intended these to be filterable by category, but the API did not provide this data.
+
+Feedback for Algolia
+Good exercise to get into the product - easy and quick to set up.
